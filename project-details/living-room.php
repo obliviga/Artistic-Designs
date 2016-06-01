@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <title>HOUSE - Interior Design Responsive Template</title>
+  <title>Artistic Designs -- Living Room</title>
   <!-- PHP File Includes -->
   <?php include 'global.php' ?>
   <?php echo $head; ?>
@@ -25,7 +25,7 @@
             </button>
             <a class="navbar-brand" href="index.php">
               <!-- Logo Image -->
-              <img src="assets/img/logo-header.png" alt="Specifie an alternate text for an image">
+              <img src="../assets/img/logo-header.png" alt="Specifie an alternate text for an image">
             </a>
           </div>
         </div>
@@ -75,26 +75,26 @@
               <ul class="gallery-inner">
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image1.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image1.jpg" alt="Specifie an alternate text for an image">
+                  <a href="../assets/img/portfolio/lr1.jpg" data-lightbox="example-set">
+                    <img src="../assets/img/portfolio/lr1.jpg" alt="Specifie an alternate text for an image">
                   </a>
                 </li>
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image2.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image2.jpg" alt="Specifie an alternate text for an image">
+                  <a href="../assets/img/portfolio/lr2.jpg" data-lightbox="example-set">
+                    <img src="../assets/img/portfolio/lr2.jpg" alt="Specifie an alternate text for an image">
                   </a>
                 </li>
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image3.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image3.jpg" alt="Specifie an alternate text for an image">
+                  <a href="../assets/img/portfolio/image3.jpg" data-lightbox="example-set">
+                    <img src="../assets/img/portfolio/image3.jpg" alt="Specifie an alternate text for an image">
                   </a>
                 </li>
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image4.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image4.jpg" alt="Specifie an alternate text for an image">
+                  <a href="../assets/img/portfolio/image4.jpg" data-lightbox="example-set">
+                    <img src="../assets/img/portfolio/image4.jpg" alt="Specifie an alternate text for an image">
                   </a>
                 </li>
               </ul>
@@ -147,7 +147,7 @@
                     <div class="project-inner">
                       <a href="#">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image5.jpg" alt="Specifie an alternate text for an image" >
+                        <img src="../assets/img/portfolio/image5.jpg" alt="Specifie an alternate text for an image" >
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
@@ -164,7 +164,7 @@
                     <div class="project-inner">
                       <a href="#">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image6.jpg" alt="Specifie an alternate text for an image">
+                        <img src="../assets/img/portfolio/image6.jpg" alt="Specifie an alternate text for an image">
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
@@ -181,7 +181,7 @@
                     <div class="project-inner">
                       <a href="#">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image7.jpg" alt="Specifie an alternate text for an image">
+                        <img src="../assets/img/portfolio/image7.jpg" alt="Specifie an alternate text for an image">
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
@@ -198,7 +198,7 @@
                     <div class="project-inner">
                       <a href="#">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image8.jpg" alt="Specifie an alternate text for an image">
+                        <img src="../assets/img/portfolio/image8.jpg" alt="Specifie an alternate text for an image">
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
@@ -221,6 +221,41 @@
               </div>
               <!-- End Site Wrapper -->
               <!-- Footer -->
-              <?php echo $footer; ?>
+              <div id="footer">
+                <div class="container">
+                  <div class="row">
+                    <!-- Copyright -->
+                    <div class="col-md-4 text-center">
+                      <p>Copyright 2014 © Wrapbootstrap.com</p>
+                    </div>
+                    <!-- Footer Social Icons -->
+                    <div class="col-md-4 text-center">
+                      <a href="#">
+                        <i class="fa fa-facebook fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-twitter fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-pinterest-square fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-dribbble fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-behance fa-lg"></i>
+                      </a>
+                    </div>
+                    
+                    <!-- Up Button -->
+                    <div class="col-md-4 back-to-top">
+                      <a href="#">
+                        <i class="fa fa-angle-up fa-2x pull-right"></i>
+                      </a>
+                    </div>
+                    </div><!-- /row -->
+                    </div><!-- /container -->
+                  </div>
+                  <?php echo $footer; ?>
                 </body>
               </html>

@@ -4,65 +4,18 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <title>HOUSE - Interior Design Responsive Template</title>
+  <title>Artistic Designs -- Master Bedroom</title>
   <!-- PHP File Includes -->
   <?php include 'global.php' ?>
   <?php echo $head; ?>
 </head>
 <body>
   <!-- Header (navigation menu, and logo) -->
-  <nav class="navbar navbar-default header-navbar" role="navigation">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.php">
-              <!-- Logo Image -->
-              <img src="assets/img/logo-header.png" alt="Specifie an alternate text for an image">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.php">Home</a></li>
-              <li><a href="about.php">About</a></li>
-              <li><a href="services.php">Services</a></li>
-              <!-- Dropdown -->
-              <li class="dropdown active">
-                <a href="projects.php" class="dropdown-toggle" data-toggle="dropdown">Projects</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="project-inner.php">Single Project</a></li>
-                  <li><a href="projects.php">Gallery Style</a></li>
-                </ul>
-              </li>
-              <!-- Dropdown -->
-              <li class="dropdown">
-                <a href="blog.php" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="blog-inner.php">Single Blog</a></li>
-                  <li><a href="blog.php">Gallery Blog</a></li>
-                </ul>
-              </li>
-              <li><a href="contact.php">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-        </div><!-- /row -->
-        </div><!-- /container -->
-      </nav>
+  <?php echo $projects_nav; ?>
       <!-- End Header -->
       <!-- Section General Title -->
       <div class="general-title bg-color">
-        <h2>Penthouse in New York</h2>
+        <h2>Master Bedroom</h2>
         <div class="title-devider"></div>
       </div>
       <!-- Site Wrapper -->
@@ -75,26 +28,26 @@
               <ul class="gallery-inner">
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image1.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image1.jpg" alt="Specifie an alternate text for an image">
+                  <a href="assets/img/portfolio/br1.jpg" data-lightbox="example-set">
+                    <img src="assets/img/portfolio/br1.jpg" alt="Master Bedroom 1">
                   </a>
                 </li>
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image2.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image2.jpg" alt="Specifie an alternate text for an image">
+                  <a href="assets/img/portfolio/br2.jpg" data-lightbox="example-set">
+                    <img src="assets/img/portfolio/br2.jpg" alt="Master Bedroom 2">
                   </a>
                 </li>
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image3.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image3.jpg" alt="Specifie an alternate text for an image">
+                  <a href="assets/img/portfolio/br3.jpg" data-lightbox="example-set">
+                    <img src="assets/img/portfolio/br3.jpg" alt="Master Bedroom 3">
                   </a>
                 </li>
                 <!-- Image -->
                 <li>
-                  <a href="assets/img/portfolio/image4.jpg" data-lightbox="example-set">
-                    <img src="assets/img/portfolio/image4.jpg" alt="Specifie an alternate text for an image">
+                  <a href="assets/img/portfolio/br4.jpg" data-lightbox="example-set">
+                    <img src="assets/img/portfolio/br4.jpg" alt="Master Bedroom 4">
                   </a>
                 </li>
               </ul>
@@ -103,31 +56,23 @@
             <div class="col-sm-5">
               <div class="project-info">
                 <ul>
-                  <!-- Customer -->
+                  <!-- Room -->
                   <li>
-                    <b>Customer:</b> Wrapbootstrap
+                    <b>Room:</b> Master Bedroom
                   </li>
                   <!-- Location -->
                   <li>
-                    <b>Location:</b> NEW YORK
-                  </li>
-                  <!-- Date -->
-                  <li>
-                    <b>Date:</b> 24 May, 2013
+                    <b>Location:</b> North Haledon, NJ
                   </li>
                   <!-- Category -->
                   <li>
-                    <b>Category:</b> Interior Design
+                    <b>Category:</b> European
                   </li>
                 </ul>
               </div>
               <!-- Description -->
               <div class="project-description">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas</p>
-                <p>Delenit augue duis dolore te feugait nulla facilisi.</p>
+                <p>The large mahogany four postered bed, alabaster light fixture and quality furniture along with breathtaking views of the NYC skyline framed by custom window treatments complete this master bedroom.</p>
               </div>
             </div>
             </div><!-- row -->
@@ -145,15 +90,14 @@
                   <!-- Project Item (image,link and description for your project) -->
                   <div class="col-sm-6 col-md-3">
                     <div class="project-inner">
-                      <a href="#">
+                      <a href="dining.php">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image5.jpg" alt="Specifie an alternate text for an image" >
+                        <img src="assets/img/portfolio/dr1.jpg" alt="Dining Room">
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
                             <p><i class="fa fa-plus fa-lg"></i></p>
-                            <h3>VILLA IN CANNES</h3>
-                            <p><small>2013/08</small></p>
+                            <h3>Dining Room</h3>
                           </div>
                         </div>
                       </a>
@@ -162,15 +106,14 @@
                   <!-- Project Item (image,link and description for your project) -->
                   <div class="col-sm-6 col-md-3">
                     <div class="project-inner">
-                      <a href="#">
+                      <a href="movie-room.php">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image6.jpg" alt="Specifie an alternate text for an image">
+                        <img src="assets/img/portfolio/mr1.jpg" alt="Movie Room">
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
                             <p><i class="fa fa-plus fa-lg"></i></p>
-                            <h3>Penthouse in New York</h3>
-                            <p><small>2013/08</small></p>
+                            <h3>Movie Room</h3>
                           </div>
                         </div>
                       </a>
@@ -179,15 +122,14 @@
                   <!-- Project Item (image,link and description for your project) -->
                   <div class="col-sm-6 col-md-3">
                     <div class="project-inner">
-                      <a href="#">
+                      <a href="library.php">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image7.jpg" alt="Specifie an alternate text for an image">
+                        <img src="assets/img/portfolio/li1.jpg" alt="Library">
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
                             <p><i class="fa fa-plus fa-lg"></i></p>
-                            <h3>Kitchen</h3>
-                            <p><small>2013/08</small></p>
+                            <h3>Library</h3>
                           </div>
                         </div>
                       </a>
@@ -196,9 +138,9 @@
                   <!-- Project Item (image,link and description for your project) -->
                   <div class="col-sm-6 col-md-3">
                     <div class="project-inner">
-                      <a href="#">
+                      <a href="guest-room.php">
                         <!-- Image -->
-                        <img src="assets/img/portfolio/image8.jpg" alt="Specifie an alternate text for an image">
+                        <img src="assets/img/portfolio/gr1.jpg" alt="Guest Room">
                         <div class="project-caption">
                           <!-- Title and Date -->
                           <div class="project-details">
@@ -221,6 +163,41 @@
               </div>
               <!-- End Site Wrapper -->
               <!-- Footer -->
-              <?php echo $footer; ?>
+              <div id="footer">
+                <div class="container">
+                  <div class="row">
+                    <!-- Copyright -->
+                    <div class="col-md-4 text-center">
+                      <p>Copyright 2014 © Artistic Designs LLC</p>
+                    </div>
+                    <!-- Footer Social Icons -->
+                    <div class="col-md-4 text-center">
+                      <a href="#">
+                        <i class="fa fa-facebook fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-twitter fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-pinterest-square fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-dribbble fa-lg"></i>
+                      </a>
+                      <a href="#">
+                        <i class="fa fa-behance fa-lg"></i>
+                      </a>
+                    </div>
+
+                    <!-- Up Button -->
+                    <div class="col-md-4 back-to-top">
+                      <a href="#">
+                        <i class="fa fa-angle-up fa-2x pull-right"></i>
+                      </a>
+                    </div>
+                    </div><!-- /row -->
+                    </div><!-- /container -->
+                  </div>
+                  <?php echo $footer; ?>
                 </body>
               </html>
