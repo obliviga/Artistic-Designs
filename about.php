@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <title>Artistic Designs LLC</title>
+  <title>About Artistic Designs LLC</title>
   <!-- PHP File Includes -->
   <?php include 'global.php' ?>
   <?php echo $head; ?>

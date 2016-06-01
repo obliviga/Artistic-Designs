@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <title>HOUSE - Interior Design Responsive Template</title>
+  <title>Get in touch!</title>
   <!-- PHP File Includes -->
   <?php include 'global.php' ?>
   <?php echo $head; ?>
