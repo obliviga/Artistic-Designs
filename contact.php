@@ -39,21 +39,13 @@
               <li><a href="about.php">About</a></li>
               <li><a href="services.php">Services</a></li>
               <!-- Dropdown -->
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a href="projects.php" class="dropdown-toggle" data-toggle="dropdown">Projects</a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="project-inner.php">Single Project</a></li>
                   <li><a href="projects.php">Gallery Style</a></li>
                 </ul>
-              </li>
-              <!-- Dropdown -->
-              <li class="dropdown">
-                <a href="blog.php" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="blog-inner.php">Single Blog</a></li>
-                  <li><a href="blog.php">Gallery Blog</a></li>
-                </ul>
-              </li>
+              </li> -->
               <li class="active"><a href="contact.php">Contact</a></li>
             </ul>
           </div>
